@@ -30,7 +30,7 @@ variable "processors" {
 }
 variable "instance_name" {
   type        = string
-  default     = "my_test_vm123"
+  default     = "clai-pt"
   description = "The name to assign to the instance"
 }
 variable "processor_type" {
