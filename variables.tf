@@ -20,7 +20,7 @@ variable "storage-tier" {
 }
 variable "memory" {
   type        = number
-  default     = 4
+  default     = 5
   description = "The amount of memory that you want to assign to your instance in gigabytes"
 }
 variable "processors" {
