@@ -10,7 +10,7 @@ variable "image" {
 }
 variable "storage-type" {
   type        = string
-  default     = "Tier1-Flash-4"
+  default     = "Tier3-Flash-4"
   description = "Storage type defined for consuming a volume for OS"
 }
 variable "storage-tier" {
