@@ -5,12 +5,12 @@ variable "crn" {
 }
 variable "image" {
   type        = string
-  default     = "paytester-seed"
+  default     = "paytester_v1"
   description = "image"
 }
 variable "storage-type" {
   type        = string
-  default     = "Tier3-Flash-1"
+  default     = "Tier1-Flash-4"
   description = "Storage type defined for consuming a volume for OS"
 }
 variable "storage-tier" {
