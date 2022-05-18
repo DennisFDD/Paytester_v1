@@ -10,7 +10,7 @@ variable "image" {
 }
 variable "storage-type" {
   type        = string
-  default     = "Tier3-Flash-4"
+  default     = "Tier3-Flash-1"
   description = "Storage type defined for consuming a volume for OS"
 }
 variable "storage-tier" {
@@ -30,8 +30,12 @@ variable "processors" {
 }
 variable "instance_name" {
   type        = string
-  default     = "clai-pt"
+  default     = "paytester1"
   description = "The name to assign to the instance"
+}
+variable "sshkeyname" {
+  default     = "pt_ssh"
+  description = "Name of the ssh key to be used"
 }
 variable "processor_type" {
   type        = string
